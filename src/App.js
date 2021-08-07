@@ -135,7 +135,6 @@ function App() {
             <div
               style={{
                 fontSize: 14,
-                maxWidth: 500,
                 wordWrap: "break-word",
                 marginTop: 20,
               }}
