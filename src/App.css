@@ -3,8 +3,15 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 14vmin;
   pointer-events: none;
+}
+
+.MuiFormLabel-root {
+  text-transform: capitalize;
+}
+.MuiSelect-root {
+  text-align: left !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
