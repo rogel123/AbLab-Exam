@@ -11,15 +11,15 @@ const useStyles = makeStyles((theme) => ({
   root: {
     "& .MuiTextField-root": {
       margin: theme.spacing(1),
-      width: "30ch",
+      // width: "30ch",
     },
     background: "rgba(255,255,255,0.8)",
     borderRadius: 10,
     padding: 50,
     marginTop: 20,
-    display: "flex",
+    // display: "flex",
     flexDirection: "column",
-    minWidth: 500,
+    width: "50%",
   },
   header: {
     fontSize: 32,
@@ -114,7 +114,7 @@ function App() {
               marginInline: 8,
               background: "#039be5",
               color: "#fff",
-              marginTop: 10,
+              width: "100%",
             }}
           >
             SUBMIT
